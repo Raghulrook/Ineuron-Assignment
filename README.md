@@ -58,4 +58,14 @@ print("data type of M had changed to Intiger is ",int(M))
 
 Q9. Can we take more than one input from the user using single input() function? If yes, how? If no, why?
 
+Ans;
+
+yes we can use one input function or more than one input from users,
+i.e;A,B,C,D,E,F,G=input("Enter the Seven Value",).split()
+print("First number is {}, second number is {}, third number is {}, fourth is {}, Five number is {}, Six number is {}, Seven number is {}".format(A, B, C, D, E, F, G)) 
+
 Q10. What are keywords?
+
+Ans;
+
+Python has a set of keywords that are reserved words that cannot be used as variable names, function names, or any other identifiers ,i.e; Append,and,not,or,str,class ,type.
