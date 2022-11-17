@@ -38,11 +38,23 @@ Q6. How can we take an input from the user in Python?
 Ans;
 
 we can the user input as declaring common human language 
-i.e; (in python)-print=input("Enter the X value"), print(type(X))
+i.e; (in python)-M=int(input("Random value")), print("the value of M is",M), print("data type of M is ",type(M))
 
 Q7. What is the default datatype of the value that has been taken as an input using input() function?
 
+Ans;
+
+the default datatype of the value that has been taken as an input using input() function is str - String data type in python 
+
+
 Q8. What is type casting?
+
+Ans;
+
+Type casting is a process that change the nature of Intiger to Float and Float to Intiger i.e; in python - M=float(input("Random no. decimal value ",)), 
+print("the value of M is",M), 
+print("data type of M is ",type(M)), 
+print("data type of M had changed to Intiger is ",int(M))
 
 Q9. Can we take more than one input from the user using single input() function? If yes, how? If no, why?
 
