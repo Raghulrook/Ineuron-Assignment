@@ -69,3 +69,48 @@ Q10. What are keywords?
 Ans;
 
 Python has a set of keywords that are reserved words that cannot be used as variable names, function names, or any other identifiers ,i.e; Append,and,not,or,str,class ,type.
+
+Q11. Can we use keywords as a variable? Support your answer with reason.
+
+Ans;
+
+We cannot use a keyword as a variable name, function name, or any other identifier. They are used to define the syntax and structure of the Python language.
+All the keywords except True, False and None are in lowercase i.e; true,false,none and they must be written as they are. The list of all the keywords is given below.
+
+Q12. What is indentation? What's the use of indentaion in Python?
+
+Ans;
+
+The identification of a block of code in Python is done using Indentation. In many different programming languages like C, C++, Java, etc. use flower brackets or braces {} to define or to identify a block of code in the program, whereas in Python, it is done using the spaces or tabs, which is known as indentation.
+i.e;
+n = 10
+if n>5:
+print ("n is greater than 5")
+else:
+print ("n is not greater than 5")
+
+Q13. How can we throw some output in Python?
+
+Q14. What are operators in Python?
+
+Q15. What is difference between / and // operators?
+
+Q16. Write a code that gives following as an output.
+
+iNeuroniNeuroniNeuroniNeuron
+
+Q17. Write a code to take a number as an input from the user and check if the number is odd or even.
+
+Q18. What are boolean operator?
+
+Q19. What will the output of the following?
+
+1 or 0
+
+0 and 0
+
+True and False and True
+
+1 or 0 or 0
+
+Q20. What are conditional statements in Python?
