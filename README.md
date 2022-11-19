@@ -93,19 +93,51 @@ Q13. How can we throw some output in Python?
 
 Ans;
 
-
+We can throw an Exeption Output by using raise() Function - i.e; raise Name Error 
 
 Q14. What are operators in Python?
 
-Q15. What is difference between / and // operators?
+Ans;
+
+Operators re the main features in python Assign, Declare, etc,.. There are three # Arithmatic # Logical # Assignment - i.e; + - * /, += -= /=, > < != ==. 
+
+
+Q15. What is difference between / and // operators? 
+
+Ans;
+
+the difference between / and // in Arithimatic operators are ( / ) this operator is used for Float Division and ( // ) this operator used for intiger Division.
+
 
 Q16. Write a code that gives following as an output.
 
 iNeuroniNeuroniNeuroniNeuron
 
+Ans;
+
+A="iNeuron"
+A*=4
+print("The Desired Output is",A)
+
 Q17. Write a code to take a number as an input from the user and check if the number is odd or even.
 
+Number=int(input("enter a value to find if the number is odd or even ",))
+Boomer=Number%2
+if Boomer==0:
+    print("Yes, The {0} Is Even !!".format(Number))
+else:
+    print("No, The {0} Is Odd !!".format(Number))
+    
+
 Q18. What are boolean operator?
+
+Ans;
+
+Boolean Operator is a decision making Operator which compare the two operant value and give the output 
+- i.e; 
+``A=10
+B=5
+print("Result of a == b , ", A == B)``
 
 Q19. What will the output of the following?
 
@@ -116,5 +148,7 @@ Q19. What will the output of the following?
 True and False and True
 
 1 or 0 or 0
+
+
 
 Q20. What are conditional statements in Python?
