@@ -140,4 +140,4 @@ True and False and True
 
 Q20. What are conditional statements in Python?
 
-`In python we have some looping function that are need to ended or it will keep on looping , Because of that we have some condition that loop will get stop and they three given below *if-else, *if elif else, *Nested if`
+`In python we have some looping function that are need to ended or it will keep on looping , Because of that we have some condition that loop will get stop and they three given below *if-else, *if elif else, *Nested if.`
