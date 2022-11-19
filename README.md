@@ -57,7 +57,7 @@ Q9. Can we take more than one input from the user using single input() function?
 `yes we can use one input function or more than one input from users,`
 i.e;
 ```python
-A,B,C,D,E,F,G=input("Enter the Seven Value",).split()
+A,B,C,D,E,F,G=input("Enter the Seven Value ",).split()
 print("First number is {}, second number is {}, third number is {}, fourth is {}, Five number is {}, Six number is {}, Seven number is {}".format(A, B, C, D, E, F, G)) 
 ```
 Q10. What are keywords?
