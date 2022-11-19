@@ -91,6 +91,10 @@ print ("n is not greater than 5")
 
 Q13. How can we throw some output in Python?
 
+Ans;
+
+
+
 Q14. What are operators in Python?
 
 Q15. What is difference between / and // operators?
