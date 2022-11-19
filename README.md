@@ -141,3 +141,56 @@ True and False and True
 Q20. What are conditional statements in Python?
 
 `In python we have some looping function that are need to ended or it will keep on looping , Because of that we have some condition that loop will get stop and they three given below *if-else, *if elif else, *Nested if.`
+
+Q21. What is use of 'if', 'elif' and 'else' keywords?
+
+`*if keyword is a control flow statement which enables us to execute a part of the software script only when a certain condition is satisfied. *elif keyword is shorthand for else if. This keyword is used in conjunction with if statements. *The else keyword catches anything which is not caught by the preceding conditions. This keyword is used in conjunction with if statements`
+
+Q22. Write a code to take the age of person as an input and if age >= 18 display "I can vote". If age is < 18 display "I can't vote".
+
+```python
+age = int(input("Enter your age: "))
+if age >= 18:
+    print("I can vote")
+else:
+    print("I can't vote")
+```
+
+Q23. Write a code that displays the sum of all the even numbers from the given list.
+
+numbers = [12, 75, 150, 180, 145, 525, 50]
+
+```
+python
+numbers = [12, 75, 150, 180, 145, 525, 50]
+if 
+
+Q24. Write a code to take 3 numbers as an input from the user and display the greatest no as output.
+
+Q25. Write a program to display only those numbers from a list that satisfy the following conditions
+
+The number must be divisible by five
+
+If the number is greater than 150, then skip it and move to the next number
+
+If the number is greater than 500, then stop the loop
+
+numbers = [12, 75, 150, 180, 145, 525, 50]
+
+Q26. What is a string? How can we declare string in Python?
+
+Q27. How can we access the string using its index?
+
+Q28. Write a code to get the desired output of the following
+
+string = "Big Data iNeuron"
+desired_output = "iNeuron"
+
+Q29. Write a code to get the desired output of the following
+
+string = "Big Data iNeuron"
+desired_output = "norueNi"
+
+Q30. Resverse the string given in the above question.
+
+
