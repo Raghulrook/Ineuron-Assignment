@@ -160,12 +160,27 @@ Q23. Write a code that displays the sum of all the even numbers from the given l
 
 numbers = [12, 75, 150, 180, 145, 525, 50]
 
+```python
+a=[12, 75, 150, 180, 145, 525, 50] # only even no, contion needed 
+b=0
+for c in a : # changing,the variable address to make list multily by int
+    if (not(c%2 and c//2)):
+        b+=c # only even no.satisfy the above contidion 
+        print("The Addition Of Even No. In the List ",b)
 ```
-python
-numbers = [12, 75, 150, 180, 145, 525, 50]
-if 
 
 Q24. Write a code to take 3 numbers as an input from the user and display the greatest no as output.
+
+```python
+Numbers1,Numbers2,Numbers3=input("Enter The First Random No. "),input("Enter The Second Random No. "),input("Enter The Third Random No. ")
+if(Numbers1>Numbers2):
+    if(Numbers1>Numbers3):
+        print("First no.{} is the Greatest Of all three number which you entered.".format(Numbers1))
+elif(Numbers2>Numbers3):
+    print("Second no.{} is the Greatest Of all three number which you entered.".format(Numbers2))
+else:
+    print("Third no.{} is the Greatest Of all three number which you entered.".format(Numbers3))
+```
 
 Q25. Write a program to display only those numbers from a list that satisfy the following conditions
 
@@ -177,14 +192,35 @@ If the number is greater than 500, then stop the loop
 
 numbers = [12, 75, 150, 180, 145, 525, 50]
 
+```python
+numbers = [12, 75, 150, 180, 145, 525, 50]
+swap = 0
+for spare_key in numbers:
+    if (not(spare_key%5)):
+        if (spare_key>500 ):
+            break #where the no. after 500 get omitted
+        elif(spare_key<=150 ):
+            print("Numbers that satisfied by following conditions",spare_key)
+```
+
 Q26. What is a string? How can we declare string in Python?
 
+`String is sequence of letter that are pre defined by the function in python and we can declare strings by using " " or' ' these two symboles are used to declare`
+```python
+x='Bumbblebeee'
+print("",x)
+print("",type(x))
+```
+
 Q27. How can we access the string using its index?
+
+`You can access the characters in a string by referring to its index number inside square brackets []`
 
 Q28. Write a code to get the desired output of the following
 
 string = "Big Data iNeuron"
 desired_output = "iNeuron"
+
 
 Q29. Write a code to get the desired output of the following
 
