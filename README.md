@@ -221,11 +221,26 @@ Q28. Write a code to get the desired output of the following
 string = "Big Data iNeuron"
 desired_output = "iNeuron"
 
+```python
+string = "Big Data iNeuron"
+#desired_output = "iNeuron"
+print("\nThe Default Input -",string)
+print("\nThe Length Of The  Input -",len(string))
+print("\nAs The Desired Output -",string[9:16])
+```
 
 Q29. Write a code to get the desired output of the following
 
 string = "Big Data iNeuron"
 desired_output = "norueNi"
+
+```python
+string = "Big Data iNeuron"
+#desired_output = "norueNi"
+print("\nThe Default Input -",string)
+print("\nThe Length Of The  Input -",len(string))
+print("\nAs The Desired Output -",string[-1:-8:-1])#we need count the from reverse to print the value or string in the reverse - i.e;(-1=the last index, -2=the Second last index)
+```
 
 Q30. Resverse the string given in the above question.
 
