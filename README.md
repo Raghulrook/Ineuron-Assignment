@@ -318,7 +318,21 @@ Q37. Write a code to access the word "iNeuron" from the given list.
 
 lst = [1,2,3,"Hi",[45,54, "iNeuron"], "Big Data"]
 
-
+```python
+lst = [1,2,3,"Hi",[45,54, "iNeuron"], "Big Data"]
+print("Without any change in value of the first variable -",lst)
+print("\nWithout any change in length of the first variable -",len(lst))
+#now we are getting to the problem
+print("\n5th Element with changes in value of the first variable -",lst[4])
+print("\n5th Element with changes in length of the first variable -",len(lst[4]))
+#now Changing the value to another variable
+Znd = []
+Znd.extend(lst[4])
+print("\nExchanging the value to the Second variable -",Znd)
+print("\nLength of the Second variable -",len(Znd))
+#By calling the needed output by slicing
+print("\nThe Desired word -",Znd[2])
+```
 
 Q38. Take a list as an input from the user and find the length of the list.
 
