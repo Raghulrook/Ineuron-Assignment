@@ -30,6 +30,14 @@ print(type(X))
 
 Q6. How can we take an input from the user in Python?
 
+```python
+string = "Big Data iNeuron"
+#desired_output = "norueNi"
+print("\nThe Default Input -",string)
+print("\nThe Length Of The  Input -",len(string))
+print("\nAs The Desired Output -",string[-1::-1])#By simply adding the numerial calc in the reverse manner
+```
+
 `we can the user input as declaring common human language `
 i.e; 
 ```python
