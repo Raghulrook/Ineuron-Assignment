@@ -304,13 +304,21 @@ print("",Apple)
 Q36. How can we access the elements in a list?
 
 ```python
-Box = ["Magician","Witch"]
-in = input('\n  
-print("
+Box = ["Magician 🧝","Witch 🧙"]
+In = input('\nEnter Your Gender In Words To Predict Ur Gene - ')
+if (In=='Male' or In=='male'):
+    print("\nU Must Be An {}! By Ur Gene".format(Box[0]))
+elif (In=='Female' or In=='female'):
+    print("\nU Must Be An {}! By Ur Gene".format(Box[1]))
+else :
+    print("\nEnter A Valid Data")
+```
 
 Q37. Write a code to access the word "iNeuron" from the given list.
 
 lst = [1,2,3,"Hi",[45,54, "iNeuron"], "Big Data"]
+
+
 
 Q38. Take a list as an input from the user and find the length of the list.
 
