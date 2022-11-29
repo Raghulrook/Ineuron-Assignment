@@ -252,4 +252,11 @@ print("\nAs The Desired Output -",string[-1:-8:-1])#we need count the from rever
 
 Q30. Resverse the string given in the above question.
 
+```python
+string = "Big Data iNeuron"
+#desired_output = "norueNi"
+print("\nThe Default Input -",string)
+print("\nThe Length Of The  Input -",len(string))
+print("\nAs The Desired Output -",string[-1::-1])#just by adding the numerical reverse manner 
+```
 
