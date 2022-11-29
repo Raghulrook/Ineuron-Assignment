@@ -262,17 +262,51 @@ print("\nAs The Desired Output -",string[-1::-1])#just by adding the numerical r
 
 Q31. How can you delete entire string at once?
 
+`By Simply Using The Del Variable Name` - i.e;
+```python
+A="That Girl Has A Beautiful Nepals "
+del A
+print("",A)
+```
+
 Q32. What is escape sequence?
+
+`Escape sequences allow you to include special characters in strings` - i.e;
+```python
+\	Backslash (\)
+'	Single quote (')
+"	Double quote (")
+```
 
 Q33. How can you print the below string?
 
 'iNeuron's Big Data Course'
+```python
+#A = 'iNeuron's Big Data Course'#In this we can't declare a string like thing because '' once closed and ' another function is called but un functioned by not completing it
+A = "iNeuron's Big Data Course"#By doing these we can achive the printing method
+print("",A)
+```
 
 Q34. What is a list in Python?
 
+`A List in A python is known as sequence data type which is that we can include in the element list as String, Int, Float where as in array we can't enter an hetrogenous data type because array is a homogenous data type`
+
 Q35. How can you create a list in Python?
 
+`We a create a List in python by using square bracket Variable_name [] ` - i.e;
+```python
+Apple = []
+Apple.append(50)
+Apple.append(60)
+print("",Apple)
+```
+
 Q36. How can we access the elements in a list?
+
+```python
+Box = ["Magician","Witch"]
+in = input('\n  
+print("
 
 Q37. Write a code to access the word "iNeuron" from the given list.
 
