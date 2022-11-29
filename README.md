@@ -328,10 +328,21 @@ print("\nThe Desired word -",Znd[2])
 
 Q38. Take a list as an input from the user and find the length of the list.
 
-
+```python
+Axor,Bxor,Cxor,Dxor = input("Enter first any kinda data - ",),input("Enter second any kinda data - ",),input("Enter secont last any kinda data - ",),input("Enter last any kinda data - ",)
+Exor =[]
+Exor.append(Axor)
+Exor.append(Bxor)
+Exor.append(Cxor)
+Exor.append(Dxor)
+print("The list which entered -",Exor)
+print("The Length of the list -",len(Exor))
+```
 
 Q39. Add the word "Big" in the 3rd index of the given list.
 
 lst = ["Welcome", "to", "Data", "course"]
+
+
 
 Q40. What is a tuple? How is it different from list?
