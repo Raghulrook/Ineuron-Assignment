@@ -343,6 +343,13 @@ Q39. Add the word "Big" in the 3rd index of the given list.
 
 lst = ["Welcome", "to", "Data", "course"]
 
-
+```python
+lst = ["Welcome", "to", "Data", "course"]
+lst[2]="Big "+lst[2]
+print("",lst)
+print("",len(lst))
+```
 
 Q40. What is a tuple? How is it different from list?
+
+`Tuple are immutable and they can't be access once it is done we can access the but not change it whereas, in list we can change the value and also access too` 
