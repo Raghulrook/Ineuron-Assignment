@@ -260,3 +260,28 @@ print("\nThe Length Of The  Input -",len(string))
 print("\nAs The Desired Output -",string[-1::-1])#just by adding the numerical reverse manner 
 ```
 
+Q31. How can you delete entire string at once?
+
+Q32. What is escape sequence?
+
+Q33. How can you print the below string?
+
+'iNeuron's Big Data Course'
+
+Q34. What is a list in Python?
+
+Q35. How can you create a list in Python?
+
+Q36. How can we access the elements in a list?
+
+Q37. Write a code to access the word "iNeuron" from the given list.
+
+lst = [1,2,3,"Hi",[45,54, "iNeuron"], "Big Data"]
+
+Q38. Take a list as an input from the user and find the length of the list.
+
+Q39. Add the word "Big" in the 3rd index of the given list.
+
+lst = ["Welcome", "to", "Data", "course"]
+
+Q40. What is a tuple? How is it different from list?
