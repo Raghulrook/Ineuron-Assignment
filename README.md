@@ -385,8 +385,33 @@ print("\nData Type Of The Aoo -",type(Aoo))#Check type
 print("\nLength Of The Aoo -",len(Aoo))#Check Length
 ```
 Q43. Can two tuple be appended. If yes, write a code for it. If not, why?
-
+```python
+Tuple1 = ('Apple',)
+Tuple2 = ('Box',)
+print("\nData Type Of Tie1 - {}, Tie2 - {} ".format(type(Tuple1),type(Tuple2)))
+#print("\nAppending Tie1 and Tie2 - ",Tuple1.append(Tuple2))
+#As it shows that we can't use append in tuple in other way we can use by concatenate
+Tuple = Tuple1 + Tuple2
+print("\nConcade Of Two Value - {}".format(Tuple))
+print("\nLength Of Concading Value - {}".format(len(Tuple)))
+```
 Q44. Take a tuple as an input and print the count of elements in it.
+
+```python
+#Input section
+Angle = ()
+Bullistine = list(Angle)
+Cathaline = input("Enter The High School Name -\n")
+Delina = input("\nEnter The Grade That Your Doing -\n")
+#Programming Part
+Bullistine.append(Cathaline)
+Bullistine.append(Delina)
+Angle = tuple(Bullistine)
+#Output part
+print("\nAnd Your High School - {}".format(Angle))
+print("\nThe Count Of Elements Stored In The Memory- {}".format(len(Angle)))
+print("\nThe Memory Stores Data Type Is - {}".format(type(Angle)))
+```
 
 Q45. What are sets in Python?
 
@@ -418,6 +443,7 @@ Q58. What will the output of the following?
 
 var = {}
 print(type(var))
+
 Q59. How can we add an element in a dictionary?
 
 Q60. Create a dictionary and access all the values in that dictionary.
