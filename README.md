@@ -353,3 +353,27 @@ print("",len(lst))
 Q40. What is a tuple? How is it different from list?
 
 `Tuple are immutable and they can't be access once it is done we can access the but not change it whereas, in list we can change the value and also access too` 
+
+Q50. What is clear() in sets?
+
+Q51. What is frozen set?
+
+Q52. How is frozen set different from set?
+
+Q53. What is union() in sets? Explain via code.
+
+Q54. What is intersection() in sets? Explain via code.
+
+Q55. What is dictionary ibn Python?
+
+Q56. How is dictionary different from all other data structures.
+
+Q57. How can we delare a dictionary in Python?
+
+Q58. What will the output of the following?
+
+var = {}
+print(type(var))
+Q59. How can we add an element in a dictionary?
+
+Q60. Create a dictionary and access all the values in that dictionary.
