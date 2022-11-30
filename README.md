@@ -365,6 +365,11 @@ print("\nData Type Of The Boo -",type(Boo))
 ```
 Q42. Create a tuple and try to add your name in the tuple. Are you able to do it? Support your answer with reason.
 
+`We can update it by using two method`
+
+`1 - By Changing the tuple to list and adding the value in list then changing the list to tuple again`
+
+`2 - By adding Tuple to a tuple` - i.e;
 ```python
 Aoo = ()#empty tuple
 print("Empty Data Type Of Aoo -",type(Aoo))#Check type
@@ -379,7 +384,6 @@ print("\nAdded Boo Value To Aoo -",Aoo)#Check value
 print("\nData Type Of The Aoo -",type(Aoo))#Check type
 print("\nLength Of The Aoo -",len(Aoo))#Check Length
 ```
-
 Q43. Can two tuple be appended. If yes, write a code for it. If not, why?
 
 Q44. Take a tuple as an input and print the count of elements in it.
