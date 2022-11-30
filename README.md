@@ -352,7 +352,47 @@ print("",len(lst))
 
 Q40. What is a tuple? How is it different from list?
 
-`Tuple are immutable and they can't be access once it is done we can access the but not change it whereas, in list we can change the value and also access too` 
+`Tuple are immutable, you cannot update it, i.e., you cannot add, change, or remove items (elements) in tuple Whereas, in list we can change the value and also access too` 
+
+Q41. How can you create a tuple in Python?
+
+`By adding the element in the peranthesis ()` - i.e;
+```python
+Boo = (1,'One', 2.00)
+print("\nValue Of Boo -",Boo)
+print("\nLength Of The Boo -",len(Boo))
+print("\nData Type Of The Boo -",type(Boo))
+```
+Q42. Create a tuple and try to add your name in the tuple. Are you able to do it? Support your answer with reason.
+
+```python
+Aoo = ()#empty tuple
+print("Empty Data Type Of Aoo -",type(Aoo))#Check type
+Boo = list(Aoo)#Converted the Aoo from tuple to listin Boo
+print("\nEmpty Data Type Of Boo -",type(Boo))#Check type
+Coo = input("\nEnter Your Name Coo -",)#Getting from user input
+Boo.append(Coo)#Adding the input from Coo value to Boo 
+print("\nAdding Value From Coo To Boo -",Boo)#Check value
+print("\nData Type Of The Boo -",type(Boo))#Check type
+Aoo = tuple(Boo)#Coverting the Boo from list to tuple in Aoo
+print("\nAdded Boo Value To Aoo -",Aoo)#Check value
+print("\nData Type Of The Aoo -",type(Aoo))#Check type
+print("\nLength Of The Aoo -",len(Aoo))#Check Length
+```
+
+Q43. Can two tuple be appended. If yes, write a code for it. If not, why?
+
+Q44. Take a tuple as an input and print the count of elements in it.
+
+Q45. What are sets in Python?
+
+Q46. How can you create a set?
+
+Q47. Create a set and add "iNeuron" in your set.
+
+Q48. Try to add multiple values using add() function.
+
+Q49. How is update() different from add()?
 
 Q50. What is clear() in sets?
 
