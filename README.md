@@ -112,9 +112,9 @@ Q17. Write a code to take a number as an input from the user and check if the nu
 Number=int(input("enter a value to find if the number is odd or even ",))
 Boomer=Number%2
 if Boomer==0:
-    print("Yes, The {0} Is Even !!".format(Number))
+    print("Yes, The Num {0} Is Even !!".format(Number))
 else:
-    print("No, The {0} Is Odd !!".format(Number))
+    print("No, The Num {0} Is Odd !!".format(Number))
  ```
 Q18. What are boolean operator?
 
