@@ -136,7 +136,10 @@ True and False and True
 
 1 or 0 or 0
 
-`Output is empty because we did't declare the print() function for output`
+`1 or 0 -> 1
+0 and 0 -> 0
+True and False and True -> False
+1 or 0 or 0 -> 1`
 
 Q20. What are conditional statements in Python?
 
