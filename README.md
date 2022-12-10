@@ -8,7 +8,7 @@ In Python basically the code written human language and then it is converted int
 
 Q2. Why is Python called a dynamically typed language?
 
-``In python there no need to enter the data variable typr i.e; int x=2; rather we can use x=2 in dynamically typed language rather statically typed language and aslo Dynamically typed language is Run Time process and Statically typed Language is Compile Time``
+``In python there no need to enter the data variable typr i.e; int x=2; rather we can use x=2 in dynamically typed language rather statically typed language and also Dynamically typed language is Run Time process and Statically typed Language is Compile Time``
 
 Q3. List some pros and cons of Python programming language?
 
@@ -50,7 +50,7 @@ Q8. What is type casting?
 M=float(input("Random no. decimal value ",)), 
 print("the value of M is",M), 
 print("data type of M is ",type(M)), 
-print("data type of M had changed to Intiger is ",int(M))
+print("data type of M had changed to Integer is ",int(M))
 ```
 Q9. Can we take more than one input from the user using single input() function? If yes, how? If no, why?
 
@@ -94,7 +94,7 @@ Q14. What are operators in Python?
 
 Q15. What is difference between / and // operators? 
 
-`the difference between / and // in Arithimatic operators are ( / ) this operator is used for Float Division and ( // ) this operator used for intiger Division.`
+`the difference between / and // in Arithimatic operators are ( / ) this operator is used for Float Division and ( // ) this operator used for integer Division.`
 
 Q16. Write a code that gives following as an output.
 
