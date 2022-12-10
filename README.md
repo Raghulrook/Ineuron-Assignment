@@ -147,7 +147,7 @@ Q20. What are conditional statements in Python?
 
 Q21. What is use of 'if', 'elif' and 'else' keywords?
 
-`*if keyword is a control flow statement which enables us to execute a part of the software script only when a certain condition is satisfied. *elif keyword is shorthand for else if. This keyword is used in conjunction with if statements. *The else keyword catches anything which is not caught by the preceding conditions. This keyword is used in conjunction with if statements`
+`*if keyword is a control flow statement which enables us to execute a part of the software script only when a certain condition is satisfied. *elif keyword is short and for else if. This keyword is used in conjunction with if statements. *The else keyword catches anything which is not caught by the preceding conditions. This keyword is used in conjunction with if statements`
 
 Q22. Write a code to take the age of person as an input and if age >= 18 display "I can vote". If age is < 18 display "I can't vote".
 
